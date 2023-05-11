@@ -1,0 +1,125 @@
+:root {
+    /* --main-color: #4498AD;
+    --main-text-color1: #D6E1DC;
+    --main-text-color2: #2B2E53; */
+
+    --main-font: 'Poiret One';
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--main-text-color1);
+    color: var(--main-text-color2);
+    font-family: var(--main-font);
+}
+
+.shape {
+    display: none;
+}
+
+.menu-box, .for-pc > li > a {
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: var(--main-text-color1);
+}
+
+.inside-menu > * {
+    list-style-type: none;
+}
+
+.menu-cell {
+    text-align: center;
+}
+
+.menu-cell:hover,
+.for-pc > li > a:hover {
+    color: var(--main-text-color2);
+}
+
+.name-of-the-work {
+    text-align: center;
+}
+
+.svg-icon {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+#galery > article {
+    background-color: var(--main-color);
+    /* opacity: 80%; */
+}
+
+.svg-icon path {
+    fill: var(--main-text-color1);
+}
+
+.svg-icon:hover path {
+    fill: var(--main-text-color2);
+}
+
+.sort-aside {
+    background-color: var(--main-color);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.sort-button {
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    background-color: var(--main-text-color1);
+    color: var(--main-text-color2)
+}
+
+.sort-button:hover {
+    opacity: 80%;
+}
+
+.in-window path {
+    fill: var(--main-text-color2);
+}
+
+.in-window:hover path {
+    fill: var(--main-text-color1);
+}
+
+#orderButton:hover path,
+#orderButton {
+    fill: var(--main-text-color2);
+    cursor: default;
+}
+
+.main-box-bio {
+    display: flex;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--main-color);
+}
+
+.not-for-click-pic:hover,
+.not-for-click-pic:hover path {
+    cursor: default;
+    fill: var(--main-text-color1);
+}
+
+.pic-in-footer {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    height: 50%;
+}
+
+.caption-to-pic-footer {
+    margin: 0;
+}
+
+.year-bold {
+    font-weight: bold;
+}

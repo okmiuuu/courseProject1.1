@@ -1,0 +1,144 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation {
+    z-index: 10;
+}
+
+.for-pc {
+    z-index: 11;
+}
+
+.menu-box {
+    height: 10vh;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100vw; */
+} 
+
+.inside-menu > .for-pc {
+    display: none;
+}
+
+#galery {
+    width: 100%;
+    margin-top: 12vh;
+}
+
+#galery>*>div {
+    margin: auto;
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#galery>*>h3 {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.main-menu-cell:last-child {
+    margin: 2%;
+}
+
+.lang-switcher {
+    display: block;
+    width: 10vw;
+}
+
+.lang-now {
+    display: none;
+}
+
+.svg-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+  
+.svg-icon path {
+    fill: var(--main-text-color1);
+}
+
+.for-pc {
+    position: absolute;
+    left:0%;
+    top: 10vh;
+    width: 100%;
+    background-color: var(--main-color);
+    opacity: 90%;
+}
+
+.for-pc > li {
+    padding-top: 2%;
+    height: 10vh;
+    border: 1px solid var(--main-text-color1);
+}
+
+.sort-aside {
+    width: 100%;
+}
+
+.sort-aside > form {
+    display: none;
+
+    position: absolute;
+    top: 10vh;
+    width: 100%;
+    height: 60vh;
+    background-color: var(--main-color);
+}
+
+.header-for-form-sort {
+    padding: 0;
+}
+
+.sort-button {
+    margin: 0 0 2% 2%;
+
+    width: 7vh;
+    height: 7vh;
+}
+
+.sort-opener {
+    width: 100%;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 10vh;
+}
+
+.sort-opener > .svg-icon {
+    display: block;
+    width: 1.7em;
+    height: 1.7em;
+    margin: auto;
+    transition: 1s;
+}
+
+.work-window {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.work-in-window {
+    display: block;
+    width: 100%;
+}
+
+.main-box-bio {
+    flex-direction: column;
+}
+
+.caption-to-pic-footer {
+    font-size: 0.8em;
+}

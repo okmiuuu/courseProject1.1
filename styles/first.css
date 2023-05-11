@@ -1,0 +1,35 @@
+:root {
+    --main-color1: #4498AD;
+    --main-text-color1: #D6E1DC;
+    --main-color2: #8E8964;
+    --main-text-color2: #2B2E53;
+
+    --main-font: 'Poiret One';
+}
+
+body {
+    margin: 0;
+    overflow: hidden; 
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-block div {
+    font-family: var(--main-font);
+}
+
+.box-img {
+    overflow: hidden;
+}
+
+.div-color1 {
+    background-color: var(--main-color1);
+    color: var(--main-text-color1);
+}
+
+.div-color2 {
+    background-color: var(--main-color2);
+    color: var(--main-text-color2);
+}

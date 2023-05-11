@@ -1,0 +1,48 @@
+.main-block {
+    width: 50%;
+    height: 100vh;
+}
+
+.main-block img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main-block img:hover {
+    transform: scale(1.1);
+}
+
+.main-block div {
+    padding-top: 0.2em;
+    width: 50%;
+
+    font-size: 3.5em;
+
+    position: fixed;
+    bottom: 0%;
+    z-index: 6;
+}
+
+.div-color1 {
+    padding-left: 0.3em;
+}
+
+.div-color2 {
+    padding-right: 0.3em;
+    text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+    .main-block div {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-block div {
+        font-size: 2em;
+    }
+}

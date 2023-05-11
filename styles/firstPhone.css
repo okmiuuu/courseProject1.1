@@ -1,0 +1,16 @@
+.main-container {
+    flex-direction: column;
+}
+
+.main-block {
+    font-size: 2em;
+}
+
+.box-img {
+    width: 100%;
+    height: 43vh;
+}
+
+.box-img > a > img {
+    width: 100%;
+}

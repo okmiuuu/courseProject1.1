@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/colorsGenadz.css">
+    <link rel="stylesheet" href="../styles/styleMain.css">
+    <link rel="stylesheet" href="../styles/styleMainForPC.css"  media="(min-width: 501px)">
+    <link rel="stylesheet" href="../styles/styleMainForPhones.css" media="(max-width: 500px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+    <title>Біяграфія</title>
+</head>
+<body>
+    <div class="all-content">
+    <div class="content">
+    <nav class="main-navigation">
+        <ul class="menu-box">
+            <li class="menu-cell main-menu-cell">
+                <a href="../first/index.html">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path d="M18.121,9.88l-7.832-7.836c-0.155-0.158-0.428-0.155-0.584,0L1.842,9.913c-0.262,0.263-0.073,0.705,0.292,0.705h2.069v7.042c0,0.227,0.187,0.414,0.414,0.414h3.725c0.228,0,0.414-0.188,0.414-0.414v-3.313h2.483v3.313c0,0.227,0.187,0.414,0.413,0.414h3.726c0.229,0,0.414-0.188,0.414-0.414v-7.042h2.068h0.004C18.331,10.617,18.389,10.146,18.121,9.88 M14.963,17.245h-2.896v-3.313c0-0.229-0.186-0.415-0.414-0.415H8.342c-0.228,0-0.414,0.187-0.414,0.415v3.313H5.032v-6.628h9.931V17.245z M3.133,9.79l6.864-6.868l6.867,6.868H3.133z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li class="inside-menu">
+                <ul onclick="getHamMenu()" class="for-phone">
+                    <li>
+                        <!-- <li onclick="getHamMenu()"> -->
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path d="M10,1.445c-4.726,0-8.555,3.829-8.555,8.555c0,4.725,3.829,8.555,8.555,8.555c4.725,0,8.555-3.83,8.555-8.555C18.555,5.274,14.725,1.445,10,1.445 M10,17.654c-4.221,0-7.654-3.434-7.654-7.654c0-4.221,3.433-7.654,7.654-7.654c4.222,0,7.654,3.433,7.654,7.654C17.654,14.221,14.222,17.654,10,17.654 M14.39,10c0,0.248-0.203,0.45-0.45,0.45H6.06c-0.248,0-0.45-0.203-0.45-0.45s0.203-0.45,0.45-0.45h7.879C14.187,9.55,14.39,9.752,14.39,10 M14.39,12.702c0,0.247-0.203,0.449-0.45,0.449H6.06c-0.248,0-0.45-0.202-0.45-0.449c0-0.248,0.203-0.451,0.45-0.451h7.879C14.187,12.251,14.39,12.454,14.39,12.702 M14.39,7.298c0,0.248-0.203,0.45-0.45,0.45H6.06c-0.248,0-0.45-0.203-0.45-0.45s0.203-0.45,0.45-0.45h7.879C14.187,6.848,14.39,7.051,14.39,7.298"></path>
+                            </svg>
+                        </li>
+                    </ul>
+                <ul class="for-pc">
+                    <li class="menu-cell inside-menu-cell"><a href="../genadz/biografy.html" data-i18n="biografyMenu">Біяграфія</a></li>
+                    <li class="menu-cell inside-menu-cell"><a href="../genadz/works.html" data-i18n="worksMenu">Работы</a></li>
+                    <li class="menu-cell inside-menu-cell"><a href="../genadz/exhibitions.html" data-i18n="exhibitionsMenu">Выставы</a></li>
+                </ul>
+            </li>
+            <li class="menu-cell main-menu-cell"><span id="EN" class="lang-switcher" data-lang="EN">EN</span><span id="BY" class="lang-switcher" data-lang="BY">BY</span></li>
+        </ul>
+    </nav>
+    <div class="main-box-bio">
+        <div>
+            <h1 class="main-header" data-i18n="nameG">Генадзь Шутаў</h1>
+            <p class="main-text" data-i18n="biografytextG">Нарадзілася ў горадзе Верхнядзвінску Віцебскай вобласці. У 1960 годзе закончыла Віцебскае графічнае педвучылішча, у 1969 годзе Ленінгардскі мастацкі інстытут імя І.Е.Рэпіна, факультэт тэорыі і гісторыі мастацтваў</p>
+        </div>
+        <img class="pic-for-biografy" src="../assets/pictures/genadz/biografyPhoto.png" alt="">
+    </div>
+    </div>
+    <footer class="main-footer">
+        <h4 data-i18n="contactWithUs">Звяжыцеся з намі:</h4>
+        <div>
+            <svg class="svg-icon pic-in-footer" viewBox="0 0 20 20">
+                <a href="https://www.facebook.com/shutovsart/photos">
+                    <path fill="none" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+                </a>
+            </svg>
+            <h5 class="caption-to-pic-footer">Facebook</h5>
+        </div>
+        <div>
+            <svg class="svg-icon pic-in-footer not-for-click-pic" viewBox="0 0 20 20">
+                <path d="M14.999,8.543c0,0.229-0.188,0.417-0.416,0.417H5.417C5.187,8.959,5,8.772,5,8.543s0.188-0.417,0.417-0.417h9.167C14.812,8.126,14.999,8.314,14.999,8.543 M12.037,10.213H5.417C5.187,10.213,5,10.4,5,10.63c0,0.229,0.188,0.416,0.417,0.416h6.621c0.229,0,0.416-0.188,0.416-0.416C12.453,10.4,12.266,10.213,12.037,10.213 M14.583,6.046H5.417C5.187,6.046,5,6.233,5,6.463c0,0.229,0.188,0.417,0.417,0.417h9.167c0.229,0,0.416-0.188,0.416-0.417C14.999,6.233,14.812,6.046,14.583,6.046 M17.916,3.542v10c0,0.229-0.188,0.417-0.417,0.417H9.373l-2.829,2.796c-0.117,0.116-0.71,0.297-0.71-0.296v-2.5H2.5c-0.229,0-0.417-0.188-0.417-0.417v-10c0-0.229,0.188-0.417,0.417-0.417h15C17.729,3.126,17.916,3.313,17.916,3.542 M17.083,3.959H2.917v9.167H6.25c0.229,0,0.417,0.187,0.417,0.416v1.919l2.242-2.215c0.079-0.077,0.184-0.12,0.294-0.12h7.881V3.959z"></path>
+            </svg>
+            <h5 class="caption-to-pic-footer">okmiuu@gmail.com</h5>
+        </div>
+    </footer>
+    </div>
+</body>
+<script type="module" src="../scripts/translate.js"></script>
+<script src="../scripts/outMenuOnPhone.js"></script>
+<script src="../scripts/openAsideSort.js"></script>
+</html>

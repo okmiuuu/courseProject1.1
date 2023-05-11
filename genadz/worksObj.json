@@ -1,0 +1,83 @@
+[
+    {
+        "ref": "/assets/pictures/genadz/0001.png",
+        "nameBY": "Карабель часу",
+        "nameEN": "Ship of time",
+        "year": "2000",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": true
+    },
+    {
+        "ref": "/assets/pictures/genadz/0002.png",
+        "nameBY": "Чулы сон скрыпак",
+        "nameEN": "Light Sleep of the Violins",
+        "year": "2005",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": false
+    },
+    {
+        "ref": "/assets/pictures/genadz/0003.jpg",
+        "nameBY": "Час дзьмухаўцоў",
+        "nameEN": "Time of Dandelions",
+        "year": "2009",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": true
+    },
+    {
+        "ref": "/assets/pictures/genadz/0004.png",
+        "nameBY": "Крыштальная ваза",
+        "nameEN": "Crystal Vase",
+        "year": "2006",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": false
+    },
+    {
+        "ref": "/assets/pictures/genadz/0005.png",
+        "nameBY": "Зімовы букет успамінаў",
+        "nameEN": "Winter Bouquet of Memories",
+        "year": "2013",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": true
+    },
+    {
+        "ref": "/assets/pictures/genadz/0006.png",
+        "nameBY": "Спланаваны хаос ІІІ",
+        "nameEN": "Planned Chaos III",
+        "year": "2004",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": false
+    },
+    {
+        "ref": "/assets/pictures/genadz/0007.png",
+        "nameBY": "Вясновае абуджэнне",
+        "nameEN": "Spring Awakening",
+        "year": "2010",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": false
+    },
+    {
+        "ref": "/assets/pictures/genadz/0008.png",
+        "nameBY": "Рыцарам Вялікага Княства Літоўскага",
+        "nameEN": "For the knigts of Grand Duchy of Lithuania",
+        "year": "2009",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": true
+    },
+    {
+        "ref": "/assets/pictures/genadz/0009.png",
+        "nameBY": "Лунарыўм",
+        "nameEN": "Lunarium",
+        "year": "2013",
+        "descriptionBY": " ", 
+        "descriptionEN": " ",
+        "forSale": false
+    }
+]
